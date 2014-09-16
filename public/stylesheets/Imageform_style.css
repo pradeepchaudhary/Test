@@ -1,0 +1,99 @@
+/*
+This code is generated under the Project PC1 version2.
+ 
+*/
+/* 
+    Created on : Nov 21, 2013, 1:12:28 AM
+    Author     : Thinker
+*/
+
+html {
+	//background-color: rgba(0,51,102,1);   //The blue
+}
+body {
+	//background-color: rgba(0,51,102,1);
+}
+body,td,th {
+	//color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
+}
+
+.step2, .error {
+	display: none;
+}
+.error {
+	color: red;
+}
+
+.jcrop-holder {
+    display: inline-block;
+}
+input[type=submit] {
+	background: #e3e3e3;
+	/* [disabled]border: 1px solid #bbb; */
+	//border-radius: 3px;
+	/* [disabled]-webkit-box-shadow: inset 0 0 1px 1px #f6f6f6; */
+	/* [disabled]box-shadow: inset 0 0 1px 1px #f6f6f6; */
+	/* [disabled]color: #333; */
+	/*font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;*/
+	/*padding: 8px 0 9px;*/
+	text-align: center;
+	/*text-shadow: 0 1px 0 #fff;*/
+	/*width: 150px;*/
+}
+input[type=submit]:hover {
+    background: #d9d9d9;
+    -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+    box-shadow: inset 0 0 1px 1px #eaeaea;
+    color: #222;
+    cursor: pointer;
+}
+input[type=submit]:active {
+    background: #d0d0d0;
+    -webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
+    box-shadow: inset 0 0 1px 1px #e3e3e3;
+    color: #000;
+}
+label {
+/*	margin: 0 5px;
+	width: 150px;
+	float: left;*/
+	text-align: right;
+	/*padding-right: 10px;*/
+}
+
+#image_details{
+    position: fixed;
+    right:20px; 
+    top:200px;
+    z-index: 10;
+}
+input[type=text] {
+    position: inherit;
+    float: right;
+    /*height: 30px;*/
+    /*left: 5px;*/
+    width: 100px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+/*.info {
+	display: inline;
+	float: right;
+	position: absolute;
+	top: 120px;
+	right: 4%;
+	z-index: 500;
+}*/
+#preview {
+	/* [disabled]top: 120px; */
+	/* [disabled]float: left; */
+}
+
+input {
+	/*border: 1px solid #CCCCCC;*/
+	//border-radius: 10px;
+	//padding: 4px 8px;
+	/*text-align: center;*/
+	/* [disabled]width: 70px; */
+}

@@ -1,0 +1,16 @@
+User Module
+User Registration
+Authenticartion,
+Login Service
+
+Candidate Module
+Candidate Data Entry
+profile Mangement (CRUD)
+
+Examination module
+Exam entry for ADMIN
+Exam Entry
+
+Application/Enrolment Module
+Enrolment to Company
+Data Publishing
